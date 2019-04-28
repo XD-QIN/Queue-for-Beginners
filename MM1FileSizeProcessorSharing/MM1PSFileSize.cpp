@@ -4,7 +4,7 @@
 #include <iomanip>
 #include <fstream>
 
-#define NumofSimPoints 1000
+#define NumofSimPoints 10
 #define SampleFrequency 1
 double Seed = 7;
 double myrand();
@@ -33,7 +33,7 @@ int main(){
 
 	//double Lambda[NumofSimPoints] =       { 0.8, 0.9, 0.93, 0.96, 0.99 };
 	//double AvgTaskDelay[NumofSimPoints] = {  0,    0,   0,    0,    0  };
-	double lambda[NumofSimPoints] = { 1.5, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 0.95 };
+	double lambda[NumofSimPoints] = { 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 0.95 };
 	double AvgTaskDelay[NumofSimPoints] = { 0 }; 
 	double AvgQueueLength[NumofSimPoints] = { 0 };
 
